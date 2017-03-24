@@ -101,13 +101,42 @@ int main()
     cout <<"Ingrese otro valor valor : "<< endl;
     cin >> x4;
     cout <<"Los valores ingresados son : "<<x3<<" y "<<x4<< endl;
+    x3 = x3 + x4;
+    x4 = x3 - x4;
+    x3 = x3 - x4;
+    cout <<"Los valores intercambiados son : "<<x3<<" y "<<x4<<endl;
 
-    /*cout <<"Los valores intercambiados son : "<<x3<<" y "<<x4<<endl;*/
+    //Comparacion entre 3 variables
+    int num3;
+    cout <<"Ingrese el primer n"<<(char)163<<"mero : "<< endl;
+    cin >> num3;
+    int num4;
+    cout <<"Ingrese el segundo n"<<(char)163<<"mero : "<< endl;
+    cin >> num4;
+    int num5;
+    cout <<"Ingrese el tercero n"<<(char)163<<"mero : "<< endl;
+    cin >> num5;
+    if (num3>=num4 && num3>=num5){
+        cout <<"El mayor n"<<(char)163<<"mero es "<<num3<<endl;
+    }
+    else{
+        if (num4>=num5){
+                cout <<"El mayor n"<<(char)163<<"mero es "<<num4<<endl;
+        }
+        else {cout <<"El mayor n"<<(char)163<<"mero es "<<num5<<endl;
+        }
+    }
 
+    /*Diferencia entre ++c y c++
 
+    */
+    //Bonus
+    int variable_mamona;
+    cout<<"t h e  s e c r e t  i s "<<endl;
+    cin >> variable_mamona;
+    if (variable_mamona == 5){
+        cout <<"Buena esa prron sacaste un secreto de este pinshi programa que no te ayudara en nada en tu putah vida jajaja salu3"<<endl;
+    }
 
-
-
-
-    return 0;
+    return 1;
 }
