@@ -35,8 +35,40 @@ int main()
     cout << temp << endl;
 
 
-    return 0;
 
     //iNTENTAR PROBLEMA SACAR LA LISTA DE LOS NUMEROS PRIMOS ENTRE 1-100
 
+    cout << "3.-" << endl;
+    int limite;
+    cin >> limite;
+    for (int i = 2;i<=limite-1;i++)  {
+        int cont = 0;
+        for (int j = 1; j<=i;j++){
+            if (i%j == 0){
+                cont++;
+            }
+        }
+        if (cont==2){
+                cout << i << endl;
+        }
+    }
+
+    // Ingresar in I e imprimir el numero primo correspondiente
+
+
+    //Codigo de fibonacci prro :V
+
+    cout << "5.-" << endl;
+    int fib=0, index;
+    cin >> index;
+
+
+
+
+
+
+
+    return 0;
 }
+
+
