@@ -150,13 +150,14 @@ int sumaArray(int arreglo[], int len, int x, int total)
 
 /*void CrearMatriz(int fila,int columna, int arreglo[3][3])
 {
+    int num;
+    cout << "Ingresar valores para las filas y columnas" <<endl;
     for( int i = 0 ; i < fila ; i++){
         for (int j = 0; j<columna;j++ ){
-            arreglo[i][j] = ;
+            cin >> num;
+            arreglo[i][j] = num;
         }
-
-  }
-
+    }
 }
 
 bool palindrome(char *arreglo[], int len)
@@ -180,7 +181,7 @@ bool palindrome(char *arreglo[], int len)
 
 int main()
 {
-    /*
+
     cout << "Problema 1" << endl;
     //Millas a kilometros
     const double razonmakm = 1.60934;
@@ -350,7 +351,7 @@ int main()
 
     cout <<"Problema 10"<<endl;
     //MergeSort
-
+    /*
     int len2;
     cout <<"Ingrese el tamanho del arreglo : ";
     cin >> len2;
@@ -361,13 +362,10 @@ int main()
     */
 
     cout <<"Problema 11"<<endl;
-
+    /*
     int lenf = 3,lenc = 3;
     int myMatriz[lenf][lenc] = {{1,2,3},{4,3,2},{3,2,1}};
-
-
-
-
+    */
 
     cout <<"Problema 12"<<endl;
     int len3;
