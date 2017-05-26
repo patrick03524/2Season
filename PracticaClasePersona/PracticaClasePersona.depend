@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1495823674 source:c:\users\alumno-g\desktop\practicaclasepersona\main.cpp
+	<iostream>
+	"Persona.h"
+	"Birthday.h"
+
+1495823673 c:\users\alumno-g\desktop\practicaclasepersona\include\persona.h
+	<iostream>
+	"Birthday.h"
+
+1495823393 source:c:\users\alumno-g\desktop\practicaclasepersona\src\persona.cpp
+	"Persona.h"
+	"Birthday.h"
+
+1495823334 c:\users\alumno-g\desktop\practicaclasepersona\include\birthday.h
+
+1495823334 source:c:\users\alumno-g\desktop\practicaclasepersona\src\birthday.cpp
+	"Birthday.h"
+	<iostream>
+
+1495823630 source:c:\users\alumno-g\desktop\practicaclasepersona\src\gerente.cpp
+	"Gerente.h"
+
+1495823681 c:\users\alumno-g\desktop\practicaclasepersona\include\gerente.h
+
