@@ -1,22 +1,22 @@
-#include "Gerente.h"
+#include "Conserje.h"
 
-Gerente::Gerente()
+Conserje::Conserje()
     : Persona(),salario(0){}
 
-Gerente::Gerente(char *nombre1,char *sexo1,Birthday birthday1, int salario1)
+Conserje::Conserje(char *nombre1,char *sexo1,Birthday birthday1, int salario1)
     : Persona(nombre1,sexo1,birthday1),salario(salario1){}
-int Gerente::getSalario()
+int Conserje::getSalario()
 {
     return salario;
 }
-void Gerente::saludar()
+void Conserje::saludar()
 {
-    cout <<"Hola soy un Gerente" <<endl;
+    cout <<"Hola soy un conserje" <<endl;
     cout <<"Mi nombre es :"<<nombre<<endl;
     cout <<"Mi sexo es : "<<sexo<<endl;
     cout <<"Mi Salario es : "<<salario<<"$ al mes "<<endl;
 }
-int Gerente::edadPersona()
+int Conserje::edadPersona()
 {
     int currentyear = 2017;
     int currentmonth = 6;

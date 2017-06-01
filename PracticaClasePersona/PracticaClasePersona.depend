@@ -23,3 +23,36 @@
 
 1495823681 c:\users\alumno-g\desktop\practicaclasepersona\include\gerente.h
 
+1496350290 source:c:\users\alumno-g\desktop\2season\practicaclasepersona\main.cpp
+	<iostream>
+	"Persona.h"
+	"Birthday.h"
+	"Gerente.h"
+	"Conserje.h"
+
+1496350473 c:\users\alumno-g\desktop\2season\practicaclasepersona\include\persona.h
+	<iostream>
+	"Birthday.h"
+
+1496346452 c:\users\alumno-g\desktop\2season\practicaclasepersona\include\birthday.h
+
+1496346452 source:c:\users\alumno-g\desktop\2season\practicaclasepersona\src\birthday.cpp
+	"Birthday.h"
+	<iostream>
+
+1496349242 source:c:\users\alumno-g\desktop\2season\practicaclasepersona\src\persona.cpp
+	"Persona.h"
+	"Birthday.h"
+
+1496349523 c:\users\alumno-g\desktop\2season\practicaclasepersona\include\gerente.h
+	"Persona.h"
+
+1496350007 source:c:\users\alumno-g\desktop\2season\practicaclasepersona\src\gerente.cpp
+	"Gerente.h"
+
+1496350007 source:c:\users\alumno-g\desktop\2season\practicaclasepersona\src\conserje.cpp
+	"Conserje.h"
+
+1496349817 c:\users\alumno-g\desktop\2season\practicaclasepersona\include\conserje.h
+	"Persona.h"
+

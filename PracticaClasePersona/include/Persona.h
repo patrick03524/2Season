@@ -12,11 +12,10 @@ class Persona
         Persona();
         Persona(char *nombre1,char *sexo1,Birthday birthday1);
         ~Persona();
-        void saludar();
-        int edadPersona();
+        virtual void saludar()=0;
+        virtual int edadPersona();
     protected:
         char *nombre;
-        int edad;
         char *sexo;
         Birthday birthday;
 

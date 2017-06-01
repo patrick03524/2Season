@@ -22,17 +22,12 @@ Persona::~Persona()
     delete[] sexo;
     cout <<"Destruccion hecha "<<endl;
 }
-void Persona::saludar()
-{
-    cout <<"Hola soy una persona" <<endl;
-    cout <<"Mi nombre es :"<<nombre<<endl;
-    cout <<"Mi sexo es : "<<sexo<<endl;
-}
+
 int Persona::edadPersona()
 {
     int currentyear = 2017;
-    int currentmonth = 5;
-    int currentday = 26;
+    int currentmonth = 6;
+    int currentday = 1;
     int currentage = currentyear - birthday.getYear();
     if (birthday.getMonth() > currentmonth){
         currentage=currentage-1;
