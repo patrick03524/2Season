@@ -1,0 +1,48 @@
+# depslib dependency file v1.0
+1496420076 source:c:\users\alumno-g\desktop\proyectofpacmon\main.cpp
+	<iostream>
+	"Personaje.h"
+	"Enemigo.h"
+	"Pocman.h"
+
+1496417315 source:c:\users\alumno-g\desktop\proyectofpacmon\src\comida.cpp
+	"Comida.h"
+
+1496417315 c:\users\alumno-g\desktop\proyectofpacmon\include\comida.h
+
+1496419617 source:c:\users\alumno-g\desktop\proyectofpacmon\src\enemigo.cpp
+	"Enemigo.h"
+
+1496419617 c:\users\alumno-g\desktop\proyectofpacmon\include\enemigo.h
+	"Personaje.h"
+
+1496417411 source:c:\users\alumno-g\desktop\proyectofpacmon\src\escenario.cpp
+	"Escenario.h"
+
+1496417411 c:\users\alumno-g\desktop\proyectofpacmon\include\escenario.h
+
+1496420045 source:c:\users\alumno-g\desktop\proyectofpacmon\src\personaje.cpp
+	"Personaje.h"
+
+1496419617 c:\users\alumno-g\desktop\proyectofpacmon\include\personaje.h
+	"Posicion.h"
+
+1496418229 c:\users\alumno-g\desktop\proyectofpacmon\include\posicion.h
+	<string>
+	<iostream>
+
+1496420045 source:c:\users\alumno-g\desktop\proyectofpacmon\src\pocman.cpp
+	"Pocman.h"
+
+1496420104 c:\users\alumno-g\desktop\proyectofpacmon\include\pocman.h
+	"Personaje.h"
+
+1496418257 source:c:\users\alumno-g\desktop\proyectofpacmon\src\posicion.cpp
+	"Posicion.h"
+	<iostream>
+
+1496417389 source:c:\users\alumno-g\desktop\proyectofpacmon\src\ventana.cpp
+	"Ventana.h"
+
+1496417389 c:\users\alumno-g\desktop\proyectofpacmon\include\ventana.h
+
