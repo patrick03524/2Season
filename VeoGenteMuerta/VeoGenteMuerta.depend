@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1496422567 source:c:\users\alumno-g\desktop\2season\veogentemuerta\main.cpp
+	<iostream>
+	"TigerPlane.h"
+	"MiG-29.h"
+
+1496421666 c:\users\alumno-g\desktop\2season\veogentemuerta\include\tigerplane.h
+	"Avion.h"
+
+1496421992 c:\users\alumno-g\desktop\2season\veogentemuerta\include\avion.h
+	<iostream>
+
+1496422546 c:\users\alumno-g\desktop\2season\veogentemuerta\include\mig-29.h
+	"Avion.h"
+
+1496422287 source:c:\users\alumno-g\desktop\2season\veogentemuerta\src\avion.cpp
+	"Avion.h"
+
+1496422287 source:c:\users\alumno-g\desktop\2season\veogentemuerta\src\mig-29.cpp
+	"MiG-29.h"
+
+1496423363 source:c:\users\alumno-g\desktop\2season\veogentemuerta\src\torre.cpp
+	"Torre.h"
+
+1496423102 c:\users\alumno-g\desktop\2season\veogentemuerta\include\torre.h
+	"TigerPlane.h"
+	"MiG-29.h"
+	<vector>
+
+1496422446 source:c:\users\alumno-g\desktop\2season\veogentemuerta\src\tigerplane.cpp
+	"TigerPlane.h"
+

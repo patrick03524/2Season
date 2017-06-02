@@ -1,11 +1,14 @@
 #include "Torre.h"
 
-Torre::Torre()
+void Torre::agregarAvion(Avion *w)
 {
-    //ctor
+    aviones.push_back(w);
+}
+void Torre::imprimirMensaje()
+{
+    for (int i = 0; i<aviones.size(); i++){
+        aviones[i]-> Saludo();
+    }
 }
 
-Torre::~Torre()
-{
-    //dtor
-}
+

@@ -1,5 +1,8 @@
 #ifndef AVION_H
 #define AVION_H
+#include <iostream>
+using namespace std;
+
 
 
 class Avion
@@ -9,7 +12,6 @@ class Avion
         Avion(char *modelo1,int year1);
         ~Avion();
         virtual void Saludo()=0;
-        char getModelo();
         int getYear();
     protected:
         char *modelo;

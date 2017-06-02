@@ -7,14 +7,14 @@ Avion::Avion()
 }
 Avion::Avion(char *modelo1,int year1)
 {
-    modelo = new char[20]
+    modelo = new char[20];
     this -> modelo = modelo1;
     this -> year = year1;
 }
 Avion::~Avion()
 {
     delete[] modelo;
-    delete year
+
 }
-char Avion::getModelo(){return modelo;}
+
 int Avion::getYear(){return year;}

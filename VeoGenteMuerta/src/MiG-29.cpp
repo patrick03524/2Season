@@ -1,28 +1,28 @@
 #include "MiG-29.h"
 
-MiG-29::MiG-29()
+MiG29::MiG29()
 {
     this -> modelo = NULL;
     this -> year = NULL;
     this -> color = NULL;
 }
-MiG-29::MiG-29(char *modelo1,int year1,char *color1)
+MiG29::MiG29(char *modelo1,int year1,char *color1)
 {
-    modelo = new char[20]
+    modelo = new char[20];
     this -> modelo = modelo1;
     this -> year = year1;
-    color -> new char [20];
+    color = new char [20];
     this -> color = color1;
 }
-MiG-29::~MiG-29()
+MiG29::~MiG29()
 {
     delete[] modelo;
-    delete year;
     delete[] color;
 }
-void TigerPlane::Saludo()
+void MiG29::Saludo()
 {
-    cout <<"Hola"<<endl;
+    cout <<"Hola soy un : "<<modelo<<endl;
+    cout <<"Fui fabricado en el "<<year<<endl;
 }
-char TigerPlane::getModelo(){return modelo;}
-int TigerPlane::getYear(){return year;}
+
+int MiG29::getYear(){return year;}
