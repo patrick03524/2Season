@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1496425603 source:c:\users\alumno-g\desktop\proyectopointarray\main.cpp
+	<iostream>
+	"Point.h"
+	"PointArray.h"
+
+1496425009 source:c:\users\alumno-g\desktop\proyectopointarray\src\point.cpp
+	"Point.h"
+
+1496425003 c:\users\alumno-g\desktop\proyectopointarray\include\point.h
+	<iostream>
+
+1496426321 c:\users\alumno-g\desktop\proyectopointarray\include\pointarray.h
+	"Point.h"
+
