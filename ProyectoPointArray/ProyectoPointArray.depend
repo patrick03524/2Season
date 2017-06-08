@@ -13,3 +13,20 @@
 1496426321 c:\users\alumno-g\desktop\proyectopointarray\include\pointarray.h
 	"Point.h"
 
+1496951281 source:c:\users\alumno-g\desktop\2season\proyectopointarray\main.cpp
+	<iostream>
+	"Point.h"
+	"PointArray.h"
+
+1496951281 c:\users\alumno-g\desktop\2season\proyectopointarray\include\point.h
+	<iostream>
+
+1496951797 c:\users\alumno-g\desktop\2season\proyectopointarray\include\pointarray.h
+	"Point.h"
+
+1496951281 source:c:\users\alumno-g\desktop\2season\proyectopointarray\src\point.cpp
+	"Point.h"
+
+1496954681 source:c:\users\alumno-g\desktop\2season\proyectopointarray\src\pointarray.cpp
+	"PointArray.h"
+
