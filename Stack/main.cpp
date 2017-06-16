@@ -42,21 +42,24 @@ Stack <T> operator +( const Stack <T> &s1 , const Stack <T> &s2)
 template < class T>
 Stack <T> operator -( const Stack <T> &s1 , const Stack <T> &s2)
     {
-    Stack <T> result = s1;
-    int temp;
-    for (unsigned int i = 0; i<s1.items.size();i++) {
-        if(s1. items [i] == s2. items [i]){
-            while(i<s1.items.size()-1){
-                temp = result.items [i+1];
-                result.items[i] = result.items[i+1];
-                result.items[i+1] = temp;
-                i++;
-            }
-            result . items . pop_back();
+    Stack <T> result;
+
+
+    for (unsigned int i = 0; i<s1.items.size();i++){
+        bool conf = true;
+        for (unsigned int j = 0; j<s2.items.size();j++){
+                if(s1. items [i] == s2. items [j]){
+                    conf = false;
+                    break;
+                }
         }
-    }
+        if (conf == true){
+                    result . items . push_back(s1.items[i]);
+                    }
+                }
     return result ;
-}
+    }
+
 
 int main()
 {
@@ -77,6 +80,8 @@ int main()
     cout <<"Segunda Operacion "<<endl;
     stack1.push(6);
     stack2.push(6);
+    stack1.push(1);
+    stack2.push(1);
     stack1.push(5);
     stack2.push(4);
     cout <<"Stack 1 : ";
@@ -88,7 +93,6 @@ int main()
     stackres2 = (stack1-stack2);
     cout <<"Stack 4, resultado de la Resta de ambos : ";
     stackres2.getDatos(stackres2);
-
 
 }
 
