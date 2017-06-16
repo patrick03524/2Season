@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1497590353 source:d:\usb\c++\2season\composite\main.cpp
+	<iostream>
+	<vector>
+
