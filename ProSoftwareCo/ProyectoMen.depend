@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1498361448 source:d:\usb\c++\proyectomen\main.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+
